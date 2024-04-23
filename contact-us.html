@@ -8,34 +8,125 @@
     <link rel="stylesheet" href="contact-us_stylesheet.css" />
 </head>
 <body>
-    <div class="content-container">
-        <nav
-          class="nav-bar"
-          style="
-            display: flex;
-            margin-top: 0px;
-            margin-left: 0px;
-            height: auto;
-            width: 100%;
-            max-width: 1200px;
-            margin-bottom: 0px;
-            position: relative;
-          "
-        >
-          <a class="logo-link" href="/index.html">
-            <img src="/AccessAi_imge.png" alt="">
-            <!-- <p>AccessAI</p> -->
-          </a>
-          <div class="navigation">
-            <a href="/index.html">Home</a>
-            <a href="/publication.html">Publication</a>
-            <a href="/team.html">Team</a>
-            <!-- <a href="/about-us.html">About Us</a> -->
-            <a href="/contact-us.html">Contact Us</a>
+  <div class="content-container">
+      <nav
+        class="nav-bar"
+        style="
+          display: flex;
+          margin-top: 0px;
+          margin-left: 0px;
+          height: auto;
+          width: 100%;
+          max-width: 1200px;
+          margin-bottom: 0px;
+          position: relative;
+        "
+      >
+        <a class="logo-link" href="/index.html">
+          <img src="/AccessAi_imge.png" alt="">
+          <!-- <p>AccessAI</p> -->
+        </a>
+        <div class="navigation">
+          <a href="/index.html">Home</a>
+          <a href="/publication.html">Publication</a>
+          <a href="/team.html">Team</a>
+          <!-- <a href="/about-us.html">About Us</a> -->
+          <a href="/contact-us.html">Contact Us</a>
+        </div>
+        <!-- <button id="loginButton" class="btnLogin-popup">Join Now</button> -->
+      </nav>
+
+
+    <div class="content-us_box">
+      <div class="title">
+        <span class="title-H"><p>Get In Touch </p></span>
+        <span class="title-S"><p>Reach out for more information or to join our cause.</p></span>
+      </div>
+
+      <div class="content">
+        <div class="contact-form">
+          <div class="form-box">
+            <form action="#" method="POST">
+              <span class="form-box-H"><p>Contact Us</p></span>
+              <span class="form-box-S"><p>Our friendly team would love to hear from you.</p></span>
+              
+              <div class="box">
+                <div class="box-name">
+                  <div class="box-1">
+                    <span class="name"><p>Full Name</p></span>
+                    <span class="name-box">
+                      <input type="text" id="name" required>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="box-name">
+                  <div class="box-1">
+                    <span class="name"><p>Email Address</p></span>
+                    <span class="name-box">
+                      <input type="email" id="email" required>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="box-name">
+                  <div class="box-1">
+                    <span class="name"><p>Message</p></span>
+                    <span class="text-box">
+                      <textarea placeholder="Type your message...." id="message" required></textarea>
+                    </span>
+                  </div>
+                </div>
+              </div>  
+              <button type="submit" id="button"><p>Send Messag</p></button>
+            </form>
           </div>
-          <!-- <button id="loginButton" class="btnLogin-popup">Join Now</button> -->
-        </nav>
+          <span class="contact-form_img">
+            <img src="/contact-us.jpg" alt="">
+          </span>
+        </div>
+      </div>
     </div>
-    
+
+    <footer>
+      <div class="footer-box">
+        <div id="footer-text">
+          <span class="text-H">
+            <p>Access AI</p>
+          </span>
+          <span class="text-S">
+            <p>
+              Access AI is dedicated to promoting accessibility and ethics in
+              AI development.
+            </p>
+          </span>
+          <button id="btn-footer">Join Now</button>
+        </div>
+        <div class="footer-links-box">
+          <div class="footer-links">
+            <span class="text-H">
+              <p>Explore</p>
+            </span>
+            <span><a href="/index.html">Home</a></span>
+            <span><a href="#">AI Ethics</a></span>
+            <span><a href="#">AI Accessibility</a></span>
+            <span><a href="/publication.html">Publications</a></span>
+          </div>
+        </div>
+        <div></div>
+      </div>
+      <div class="footer-foot">
+        <div class="left">
+          <span class="text-L">
+            <p>© 2024 Access AI. All rights reserved</p>
+          </span>
+          <div class="right">
+            <span class="text-R"><p>Privacy Policy</p></span>
+            <span class="text-R"><p>Terms and Conditions</p></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
